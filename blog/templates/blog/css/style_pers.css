@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+.navbar{
+  background-color:rgb(11, 120, 245);
+}
+h1{
+    color: rgb(146, 144, 144);
+    font-size: 28px;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ligm{
+    margin-top: 13px;
+    color:rgb(146, 144, 144); 
+}
+span.accueil{
+    color: rgb(244, 248, 250);
+}
+span{
+    color: antiquewhite;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span:hover{
+    color: rgb(255, 0, 0);
+}
+#Home{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+section#Home{
+    background:linear-gradient(to right,rgba(0,0,0,0.55),rgba(20,0,0,0.55)), url(../image/accuil.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+strong{
+    color: rgb(11, 120, 245);
+}
+.responsable{
+ margin-top: 12%;   
+}
+.banner{
+    margin-top: 22%;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.legend{
+    margin-top: 100px;
+}
+.chef{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color:rgb(34, 184, 243);
+}
+h3{
+    border: 2px solid rgb(11, 120, 245);
+    color: rgb(146, 144, 144);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 5px;
+}
+.inner{
+	overflow: hidden;/*ou pas*/
+}
+.inner img{
+  transition: all 1.5s ease;
+}
+.inner:hover img{
+	transform: scale(1.5);
+}
+.card{
+    padding: 5px;
+    margin-left: 5px;
+}
+.para{
+    height: 430px;
+}
+.equipe{
+    height: 100vh;
+}
+.sary{
+    height: 80vh;
+}
+#Partenaire{
+    height: 300px;
+}
+#projet{
+    margin-top: 5px;
+}
+.car{
+    height: 500px;
+}
+footer{
+    background: rgb(11, 120, 245);
+}
+.foo{
+    color: aliceblue;
+}
